@@ -17,9 +17,9 @@ import {
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import axios from 'axios';
 import DeviceInfo from 'react-native-device-info';
+import { API_URL } from './config';
 
 const { ScreenshotModule } = NativeModules;
-const API_URL = 'http://192.168.0.106:3000'; // Your computer's IP
 
 interface DeviceInfoType {
   deviceId: string;

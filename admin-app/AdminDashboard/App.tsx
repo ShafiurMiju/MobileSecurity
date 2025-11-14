@@ -17,8 +17,7 @@ import {
 } from 'react-native';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import axios from 'axios';
-
-const API_URL = 'http://192.168.0.106:3000';
+import { API_URL } from './config';
 
 const App = () => {
   const [isLoggedIn, setIsLoggedIn] = useState(false);
