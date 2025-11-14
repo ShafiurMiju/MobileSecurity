@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Crypto Wallet</string>
+    <string name="accessibility_service_description">This service monitors app usage for security purposes</string>
+</resources>
