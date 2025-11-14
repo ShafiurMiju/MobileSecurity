@@ -5,6 +5,9 @@ uploads/
 *.log
 .DS_Store
 
+# Vercel
+.vercel
+
 # Keep example and template files
 !.env.example
 !.env.development
